@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Registro</title>
+    </head>
+
+    <body>
+<form>
+<div class="container"></div>
+    <h1>Registro de Productos</h1>
+    <p></p>
+    <form>
+        <div class="form-text">
+            <label for="txtcodigo">Codigo:</label>    
+            <input type="text   " class="form-control" id="txtCod" placeholder="Escribe el codigo">
+        </div>
+        
+        <div class="form-text">
+            <label for="txtNameP">Nombre del producto:</label>    
+            <input type="text" class="form-control" id="txtNP" placeholder="Escribe el producto">
+        </div>
+        
+        <div class="form-text">
+            <label for="txtPrecio">Precio:</label>    
+            <input type="text" class="form-control" id="txtPrice" placeholder="Precio">
+        </div>
+        
+        <div class="form-text">
+            <label for="txtExist">Existencia:</label>    
+            <input type="text" class="form-control" id="txtEXS" placeholder="Existencia">
+        </div>
+   
+        
+        <button type="button" class="btn btn-default" id="btnSaveDate">Guardar</button>
+    </form>
+</div>
+        <div class="container">
+         <h2>Productos</h2>
+         <table class="table table-hover" id="prodTable">
+             <thead>
+                 <tr>
+                <th>Codigo</th>  
+                <th>Nombre del producto</th>
+                <th>Precio</th>
+                <th>Existencia</th>
+                <th>Seleccionar</th>
+                <th>Eliminar</th>
+
+            </tr>
+             </thead>
+            <!-- tbody es el cuerpo de la tabla, solo para ese espacio se utiliza-->
+             <tbody>
+               
+             </tbody>
+         </table>
+        </div>  
+<p></p>
+
+        
+        <script src="Objetos/Codigo/funciones.js"></script>
+        <script src="Objetos/Codigo/objetos.js"> </script>  
+
+    </body>
+    </html>
